@@ -3,7 +3,7 @@ export default {
   azulClaro: '#0097e6',
   vermelhoEscuro: 'rgb(128, 10, 10)',
   vermelhoClaro: '#EA2027',
-  cinzaEscuro: '#2f3542',
-  cinza: '#3d3d3d',
+  cinzaEscuro: '#0d0d0d',
+  cinza: '#222',
   shadow: 'rgba(0, 0, 0, 0.4)'
 }

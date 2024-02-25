@@ -6,13 +6,13 @@ const EstiloGlobal = createGlobalStyle`
     padding: 1vw;
     box-sizing: border-box;
     list-style: none;
-    font-family: Roboto, sans-serif;
+    font-family: Ubuntu, sans-serif;
     @media (max-width:1180px) {
       padding: 0;
     }
   }
   body {
-    background-color: #1e272e;
+    background-color: #333;
   }
 `
 export const Container = styled.div`

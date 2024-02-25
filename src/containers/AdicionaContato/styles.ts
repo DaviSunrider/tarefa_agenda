@@ -31,6 +31,7 @@ export const FormCadastro = styled.form`
   input {
     width: 60%;
     padding: 12px;
+    border-radius: 8px;
     @media (max-width: 820px) {
       padding: 12px;
       margin-bottom: 10px;
@@ -44,6 +45,8 @@ export const FormCadastro = styled.form`
 `
 export const BotaoAdicionar = styled(BotaoSalvar)`
   width: 60%;
+  padding: 12px;
+  border-radius: 8px;
   @media (max-width: 820px) {
     padding: 12px;
     margin-bottom: 10px;
@@ -56,4 +59,5 @@ export const BotaoAdicionar = styled(BotaoSalvar)`
 export const InputTel = styled.input`
   width: 80%;
   padding: 12px;
+  border-radius: 8px;
 `

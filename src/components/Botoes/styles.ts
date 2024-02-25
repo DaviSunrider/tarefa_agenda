@@ -5,7 +5,7 @@ import variaveis from '../../styles/variaveis'
 
 export const BotaoAdicionar = styled(Link)`
   display: flex;
-  padding: 6px;
+  padding: 24px;
   margin-right: 20px;
   justify-content: center;
   align-items: center;
@@ -16,6 +16,7 @@ export const BotaoAdicionar = styled(Link)`
   border: none;
   cursor: pointer;
   text-decoration: none;
+  border-radius: 8px;
 
   &:hover {
     background-color: ${variaveis.azulClaro};
